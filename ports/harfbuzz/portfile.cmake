@@ -3,8 +3,8 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO harfbuzz/harfbuzz
-    REF 1.8.4
-    SHA512 92742b754713d1df8975d4d8467de04765784d7fd566b7e07e7e7a261b0338e997a5fc11fa4fe282d6d5540d242db40c993812fbc4a881becd95fd3aae598c80
+    REF 1.8.8
+    SHA512 9ec77839f126a8b38ad87d405e02b196124b5ede67f42ef6ffd6f2be9a7a4cbd2474dcc018b84fcce23f4141345279c8fa33fd59d7757171a3ce7caa697b7473
     HEAD_REF master
 )
 
