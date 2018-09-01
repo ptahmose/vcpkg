@@ -76,6 +76,7 @@ string(REPLACE
     _contents
     "${_contents}"
 )
+string(REPLACE "SHARED IMPORTED)" "UNKNOWN IMPORTED)" _contents "${_contents}")
 file(WRITE ${CURRENT_PACKAGES_DIR}/share/tbb/TBBConfig.cmake "${_contents}")
 
 # Handle copyright
